@@ -8,8 +8,8 @@ for i in range(len(n)-1):
         if n[i]+n[j]==2020:
             print("Part1:", n[i]*n[j])
 
-for i in range(len(n)-2):
-    for j in range(i+1, len(n)-1):
+for i in range(len(n)-1):
+    for j in range(i+1, len(n)):
         for k in range(j+1, len(n)):
             if n[i]+n[j]+n[k]==2020:
                 print("Part2:",n[i]*n[j]*n[k])
